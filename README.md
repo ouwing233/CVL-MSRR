@@ -35,33 +35,32 @@ msrr_localization/
 
 ## 🗓️ Release Timeline
 
-### ✅ v0.1 — Perception MVP (Month 1)
+### ✅ v0.1 — Perception MVP (2026.1)
 
 -  `perception/` ArUco detection + camera calibration utils
 -  `perception/` Relative pose estimation + covariance output
--  Minimal demo: 2-robot relative pose publish/subscribe
 
-### 🛡️ v0.2 — Fault Detection & Isolation (Month 2)
+### 🛡️ v0.2 — Fault Detection & Isolation (2026.3)
 
 -  `fdi_module/` Temporal window construction (local + relative states)
 -  `fdi_module/` CNN inference API (confidence + error type)
 -  `fdi_module/` Spike / low-frequency / high-frequency handling pipeline
 -  Log format + replay script for offline evaluation
 
-### 🔄 v0.3 — Collaborative Localization Backend (Month 3)
+### 🔄 v0.3 — Collaborative Localization Backend (2026.5)
 
 -  `localization/` Belief prediction + relative fusion (confidence-weighted)
 -  `localization/` State alignment + covariance recalculation
 -  `communication/` Standardized message schemas (pose, covariance, confidence)
 
-### 🧪 v0.4 — Simulation & Benchmarks (Month 4)
+### 🧪 v0.4 — Simulation & Benchmarks (2026.6)
 
 -  `simulation/` Obstacle-controlled constraint scenarios + fault injection
 -  Metrics: average error / RMSE + plotting scripts
--  Baseline interfaces (e.g., DR / PECMV-style) for comparison
+-  Baseline interfaces for comparison
 
-### 📦 v1.0 — Reproducible Experiments Release (Month 5–6)
+### 📦 v1.0 — Reproducible Experiments Release (2026.7)
 
--  `experiments/` Indoor pipeline (4 robots) configs + scripts
--  `experiments/` Outdoor/field pipeline (7 robots) data IO + trajectory export
+-  `experiments/` Indoor pipeline configs + scripts
+-  `experiments/` Outdoor/field pipeline data IO + trajectory export
 -  `docs/` Setup, calibration, running guide, and reproducibility checklist
