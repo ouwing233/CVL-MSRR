@@ -35,11 +35,11 @@ msrr_localization/
 
 ## 🗓️ Release Timeline
 
-### ✅ v0.1 — Perception MVP (2026.1)
+### ✅ v0.1 — Perception MVP (2026.2)
 
 -  `perception/` ArUco detection + camera calibration utils
 
-### 🛡️ v0.2 — Fault Detection & Isolation (2026.3)
+### 🛡️ v0.2 — Fault Detection & Isolation (2026.4)
 
 -  `fdi_module/` Temporal window construction (local + relative states)
 -  `fdi_module/` CNN inference API (confidence + error type)
