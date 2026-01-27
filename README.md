@@ -38,7 +38,6 @@ msrr_localization/
 ### ✅ v0.1 — Perception MVP (2026.1)
 
 -  `perception/` ArUco detection + camera calibration utils
--  `perception/` Relative pose estimation
 
 ### 🛡️ v0.2 — Fault Detection & Isolation (2026.3)
 
