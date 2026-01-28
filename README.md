@@ -20,18 +20,6 @@ We provide a collaborative visual localization framework with fault-tolerant fus
 
 ---
 
-## 📁 Project Structure
-
-```text
-msrr_localization/
-├── perception/          # ArUco detection & pose estimation
-├── fdi_module/          # Fault detection & isolation (CNN + filters)
-├── localization/        # Cooperative localization backend
-├── communication/       # Inter-module messaging
-├── simulation/          # Simulation experiments
-├── experiments/         # Real-world experiment configs/scripts
-└── docs/
-```
 
 ## 🗓️ Release Timeline
 
