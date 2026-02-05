@@ -25,7 +25,7 @@ We provide a collaborative visual localization framework with fault-tolerant fus
 
 ### ✅ v0.1 — Perception MVP (2026.2)
 
--  `perception/` ArUco detection + Relative pose estimation + camera calibration utils
+-  `localization/perception/` ArUco detection + Relative pose estimation + camera calibration utils
 
 ### 🛡️ v0.2 — Fault Detection & Isolation (2026.4)
 
