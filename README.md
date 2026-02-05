@@ -29,9 +29,9 @@ We provide a collaborative visual localization framework with fault-tolerant fus
 
 ### 🛡️ v0.2 — Fault Detection & Isolation (2026.4)
 
--  `fdi_module/` Temporal window construction (local + relative states)
--  `fdi_module/` CNN inference API (confidence + error type)
--  `fdi_module/` Spike / low-frequency / high-frequency handling pipeline
+-  `experiments/fdi_module/` Temporal window construction (local + relative states)
+-  `experiments/fdi_module/` CNN inference API (confidence + error type)
+-  `experiments/fdi_module/` Spike / low-frequency / high-frequency handling pipeline
 -  Log format + replay script for offline evaluation
 
 ### 🔄 v0.3 — Collaborative Localization Backend (2026.5)
